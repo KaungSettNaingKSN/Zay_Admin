@@ -147,7 +147,6 @@ NODE_ENV=development
 - Get user orders
 - Get all orders
 - Update order status
-- Delete order
 
 ### Users
 - Get all users
@@ -184,22 +183,10 @@ Typical flow:
 4. Protected routes are accessible with valid token
 5. Admin routes require admin role
 
-## Error Handling
-
-The project includes centralized error handling for:
-
-- Invalid routes
-- Validation errors
-- Authentication errors
-- Authorization errors
-- Server errors
-
 ## Future Improvements
 
 - Payment gateway integration
-- Product reviews API
 - Coupon system
-- Analytics endpoints
 - File/image upload optimization
 - Role-based permission system
 
